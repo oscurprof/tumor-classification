@@ -32,16 +32,10 @@ Here's Classification Report (Precision, Recall, F1-Score, Accuracy) showing how
    macro avg       0.90      0.88      0.89       569
    weighted avg       0.90      0.90      0.90       569
 
+### 5. Visualizations
 
 ## What did I Learn via this Project?
-
-This project was my first hands-on experience with machine learning, and I gained these skills:
-- **Data Loading**: Used Pandas to load and explore the breast cancer dataset from a URL.
-- **Feature/Target Splitting**: Identified features (`X`) and target (`y`) with DataFrame indexing.
-- **Model Building**: Trained a logistic regression classifier using scikit-learn, tweaking parameters like `max_iter`.
-- **Evaluation Metrics**: Assessed performance with accuracy (90%), confusion matrix, ROC curve (AUC ~0.95), and classification report (precision, recall, F1-score).
-- **Prediction**: Applied the model to predict new tumor diagnoses.
-- **Visualization**: Created box plots, feature importance charts, and more with seaborn and matplotlib to visualize data and results.
+Doing this project was my first real taste of machine learning, and I picked up a ton! I figured out how to load data with Pandas—it was cool seeing the dataset come to life with just a few lines. Splitting it into features and the target (X and y) made me get how ML needs inputs and outputs separated. Training the logistic regression model was awesome—I had to tweak max_iter to make it work, and it felt like magic when it started predicting. Evaluating it was a big eye-opener; I learned accuracy’s not the whole story—stuff like the confusion matrix and ROC curve showed me where it’s strong or weak, and the classification report broke it down even more with precision and recall. Making predictions on new data was the fun part—seeing Benign or Malignant pop out felt so rewarding. Plus, I got into plotting with seaborn and matplotlib, which helped me visualize everything from data patterns to model results.
 
 ## Setup
 1. **Download "Classification for Tumors.ipynb" File**
