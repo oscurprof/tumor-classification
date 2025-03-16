@@ -33,7 +33,15 @@ Here's Classification Report (Precision, Recall, F1-Score, Accuracy) showing how
    weighted avg       0.90      0.90      0.90       569
 
 ### 5. Visualizations
-
+1. **Box Plots**: Shows how `radius_mean` and `area_mean` differ between Benign and Malignant tumors.  
+   ![Box Plots](visualizations/box_plots.png)
+2. **Feature Importance**: Displays the logistic regression coefficients for each feature, highlighting their impact on predictions.  
+   ![Feature Importance](visualizations/feature_importance.png)
+3. **Confusion Matrix**: Breaks down true positives, true negatives, false positives, and false negatives.  
+   ![Confusion Matrix](visualizations/confusion_matrix.png)
+4. **ROC Curve**: Illustrates the model’s ability to distinguish between classes with an AUC of 0.97.  
+   ![ROC Curve](visualizations/roc_curve.png)
+   
 ## What did I Learn via this Project?
 Doing this project was my first real taste of machine learning, and I picked up a ton! I figured out how to load data with Pandas—it was cool seeing the dataset come to life with just a few lines. Splitting it into features and the target (X and y) made me get how ML needs inputs and outputs separated. Training the logistic regression model was awesome—I had to tweak max_iter to make it work, and it felt like magic when it started predicting. Evaluating it was a big eye-opener; I learned accuracy’s not the whole story—stuff like the confusion matrix and ROC curve showed me where it’s strong or weak, and the classification report broke it down even more with precision and recall. Making predictions on new data was the fun part—seeing Benign or Malignant pop out felt so rewarding. Plus, I got into plotting with seaborn and matplotlib, which helped me visualize everything from data patterns to model results.
 
