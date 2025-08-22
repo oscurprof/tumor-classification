@@ -4,7 +4,7 @@ Welcome! This project demonstrates a simple yet effective approach to classifyin
 
 ---
 
-## Table of Contents
+## Table of Content
 
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
